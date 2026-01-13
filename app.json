@@ -1,0 +1,44 @@
+{
+  "expo": {
+    "name": "QuarkID",
+    "slug": "quarkid-wallet-migrated",
+    "version": "3.1.4",
+    "orientation": "portrait",
+    "icon": "./src/assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./src/assets/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#f3f6f9"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.iovf.quarkid"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./src/assets/adaptive-icon.png",
+        "backgroundColor": "#f3f6f9"
+      },
+      "splash": {
+        "image": "./src/assets/splash.png",
+        "resizeMode": "cover",
+        "backgroundColor": "#f3f6f9"
+      },
+      "compileSdkVersion": 35,
+      "targetSdkVersion": 35,
+      "package": "com.iovf.quarkid"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-asset",
+      "expo-font",
+      "expo-localization",
+      "expo-secure-store",
+      "expo-web-browser"
+    ]
+  }
+}

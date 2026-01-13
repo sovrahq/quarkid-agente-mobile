@@ -1,0 +1,418 @@
+{
+  "back": "Atrás",
+  "next": "Siguiente",
+  "previous": "Anterior",
+  "done": "Hecho",
+  "step": "Paso",
+  "new": "Nuevo",
+  "add": "Añadir",
+  "accept": "Aceptar",
+  "reject": "Rechazar",
+  "credentials": "Credenciales",
+  "enterPin": "Ingresa tu PIN",
+  "remove": "Eliminar",
+  "cancel": "Cancelar",
+  "expired": "Credencial expirada",
+  "credential": "Credencial",
+  "errorDescription": "Por favor, intenta de nuevo más tarde.",
+  "notReadyDid": "Tu DID no está listo",
+  "notReadyDidMessage": "Por favor, espera a que tu dispositivo esté listo para continuar",
+  "authentication": "Autenticación",
+  "processing": "Procesando mensajes...",
+  "closeConnection": "Cerrar conexión",
+  "closeConnectionMessage": "¿Estás seguro de que quieres cerrar la conexión?",
+  "continue": "Continuar",
+  "skip": "Omitir",
+  "Error": "Error",
+  "more": "Ver más",
+  "loading": {
+    "processing": "Procesando...",
+    "message": "Puede tardar unos segundos"
+  },
+  "today": "Hoy",
+  "lastWeek": "Últimos 7 días",
+  "before": "Antes",
+  "tutorial": {
+    "introTitle": "Guarde sus credenciales de forma segura"
+  },
+  "pinStack": {
+    "continue": "Comenzar",
+    "createPin": "Crea tu PIN",
+    "confirmPin": "Confirmando tu PIN",
+    "description": "El PIN debe tener 6 dígitos",
+    "welcome": "Bienvenido",
+    "welcomeMessage": "Deberás crear un PIN de seguridad para poder continuar"
+  },
+  "introductionStack": {
+    "skip": "Omitir",
+    "start": "Comenzar"
+  },
+  "didStack": {
+    "createDid": "Crea tu cuenta",
+    "loadingTitle": "Publicando tu DID",
+    "loadingDid": "Tu Identidad Digital Descentralizada está siendo publicada y sólo tomará unos minutos. Podés cerrar y volver en unos minutos, te notificaremos cuando esté lista.",
+    "haveDid": "O importa tus credenciales",
+    "create": "Crear tu DID",
+    "import": "Importar datos",
+    "success": "Éxito",
+    "createdDid": "Tu identidad descentralizada ha sido creada correctamente",
+    "confirm": "Confirmar",
+    "errorMessage": "Ha ocurrido un error al crear tu identidad descentralizada, por favor, inténtalo de nuevo más tarde",
+    "cancelTitle": "Cancelar creación de DID",
+    "cancelMessage": "¿Estás seguro de que quieres cancelar la creación de tu DID?",
+    "optionYes": "Sí, cancelar",
+    "methodPlaceholder": "Selecciona un método",
+    "method": "Método"
+  },
+  "termsAndConditions": {
+    "create": "Aceptar",
+    "accept": "He leído y acepto los términos",
+    "accept2": "y condiciones",
+    "termsAndConditions": "Términos y Condiciones",
+    "snackbar": "Para continuar con el proceso de registro, es imprescindible aceptar los términos y condiciones.",
+    "title1": "",
+    "text1": "Bienvenido/a a la wallet de QuarkID. Estos Términos y Condiciones (en adelante, los “Términos”) y Políticas de Privacidad, rigen el uso de esta wallet de identidad autosoberana (Self-sovereign identity o SSI por sus siglas en inglés). Al usar la wallet (en adelante, “QuarkID wallet”), se entienden por aceptados los presentes. Si no estás de acuerdo con la descripción de los Términos, por favor, no la utilices.",
+    "title2": "Aclaraciones:",
+    "text2": "- Los Términos comprenden un apartado de Políticas de Privacidad (punto 4), que describe el uso de la información.\n- En estos Términos se hace mención a QuarkID como framework tecnológico (será únicamente “QuarkID” o como “QuarkID wallet”, de acuerdo con lo definido en el primer párrafo).",
+    "title3": "1.Definiciones",
+    "text3": "QuarkID es un framework de confianza digital descentralizado, público, no permisionado, de código abierto, extensible y capaz de interoperar con otros protocolos similares. Sigue estándares internacionales utilizados en frameworks de seguridad públicos de todo el mundo (W3C, Trust Over IP, Sovrin Foundation y otros). En función de la información que disponen estos actores, se construyen las definiciones, algunas que se detallan a continuación y que son relevantes para el uso de QuarkID wallet.",
+    "title4": "2.Uso de QuarkID wallet",
+    "text4": "Para usar QuarkID wallet, debes tener edad suficiente para contratar de acuerdo a la normativa vigente en tu jurisdicción, y vivir en un lugar donde el uso del servicio no esté prohibido por ley.\nQuarkID wallet se basa en el Sistema de Gestión de Claves (KMS) y en el uso de credenciales verificables, asociadas a la identidad del dueño del dispositivo. QuarkID wallet permite al usuario la capacidad de poseer, gestionar y compartir de manera segura sus propias credenciales verificables de identidad, emitidas por distintas entidades.\nEl Sistema de Gestión de Claves (KMS) constituye una de las capacidades más básicas y esenciales de una Billetera de Identidad, ya que permite la generación y almacenamiento de pares de claves públicas y privadas, asegura la protección de las claves privadas y facilita la firma digital mediante diversos algoritmos criptográficos.\nNecesitás crear un DID y gestionar las claves dentro de tu dispositivo para empezar a interactuar dentro de QuarkID, a través de QuarkID wallet. Siempre que utilices o valides credenciales verificables, sos responsable por proporcionar información precisa y de mantener la seguridad de tu cuenta. \nAl aceptar estos Términos, te comprometés a usar el QuarkID wallet de manera legal y apropiada. Entre eso, destacamos: No usar QuarkID wallet para actividades ilegales, interferir negativamente con el funcionamiento de QuarkID o acceder sin autorización a wallets asociadas a una identidad que no sea la propia, entre otros comportamientos.\nQuarkID es de código abierto, lo que significa que el código fuente está disponible para que cualquiera lo revise, modifique y distribuya de acuerdo con la licencia aplicable. Sin embargo, el uso de QuarkID wallet está sujeto a estos Términos.",
+    "title5": "3.Seguridad",
+    "text5": "Por el uso de QuarkID wallet, sos responsable de mantener la confidencialidad de tu información y las claves de acceso. Al aceptar estos Términos, declarás que entendés el funcionamiento, la finalidad, los riesgos, el uso, los mecanismos de almacenamiento, de transmisión y otras características materiales de los sistemas de software basados en blockchain, las billeteras de identidad descentralizada u otros mecanismos de almacenamiento relacionados con la tecnología blockchain. Para saber más, podés acceder a: https://quarkid.org/.\nEn los estándares de QuarkID, se desarrolla un marco de confianza que promueve el intercambio de credenciales verificables y pruebas criptográficas entre emisores, titulares y verificadores.\nLa organización que publica QuarkID wallet en Google Play y en Apple Store, y quienes participan y/o implementan QuarkID, no serán responsable por ninguna acción del Usuario desde QuarkID wallet, ni por el contenido de la información que se pueda gestionar o administrar desde allí. ",
+    "title6": "4.Políticas de Privacidad",
+    "text6": "La descentralización y la identidad autosoberana tienen como objetivo mejorar la privacidad y la seguridad de los usuarios al minimizar la exposición de datos y reducir los riesgos asociados con bases de datos centralizadas.\nQuarkID se basa en criptografía de clave pública y algoritmos de firma digital para proteger la privacidad de los datos del usuario. Los usuarios mantienen el control exclusivo sobre sus claves privadas y pueden compartir solo la información relevante para cada interacción sin revelar datos adicionales.\nNo se recopilan datos personales de forma directa. Los datos que contienen las Credenciales Verificables están dentro del marco de responsabilidad de las entidades que las emitan, y de los Usuarios que utilizan esa información a su criterio. Los datos se almacenan en el dispositivo y quedan sobre el dominio del Usuario, quien puede decidir qué hacer o no hacer con esa información.\nTodo lo relativo a rectificar, eliminar o cualquier acción sobre los datos de los titulares que se obtienen a través de los emisores, se deberán gestionar directamente a través de los emisores.\nLa información que se almacena en la blockchain tiene que ver con el Identificador Descentralizado (DID) y las transacciones que sean necesarias para su correcta implementación dentro del framework.\nLa información de identidad digital de los titulares se almacena únicamente en el dispositivo del usuario. El identificador descentralizado (DID) tiene un respaldo en blockchain, pero no contiene información de identidad.\nSe podrán enviar notificaciones a todos los usuarios a través de QuarkID Wallet. ",
+    "title7": "5.Seguridad de la información",
+    "text7": "QuarkID implementa medidas de seguridad para proteger tu información personal. Usa estándares de cifrado avanzados y tecnología blockchain para garantizar la seguridad de tus transacciones.\nQuarkID wallet utiliza el almacenamiento confidencial de los dispositivos móviles. Es un mecanismo diseñado específicamente para priorizar la privacidad de la información. Permite almacenar, indexar y recuperar datos cifrados en un proveedor de almacenamiento, evitando que este pueda acceder, analizar, agregar o hacer cualquier otro uso de esos datos.\nEn los procesos de verificación de información, el Usuario debe otorgar su consentimiento para compartir sus datos, lo que garantiza que siempre tengan control sobre qué información se comparte.",
+    "title8": "6.Modificaciones",
+    "text8": "Estos Términos podrán ser modificados y será responsablidad del Usuario aceptarlos al recibir la notificación de la actualización. ",
+    "title9": "7.Contacto",
+    "text9": "Si tenés alguna pregunta sobre estos Términos, puedes contactarnos a través de: soporte@quarkid.org.",
+    "definitions": [
+      {
+        "name": "Wallet: ",
+        "meaning": "es un módulo de software y, opcionalmente, un módulo de hardware asociado, diseñado para almacenar y acceder de forma segura a claves privadas, credenciales y otros secretos o materiales confidenciales pertenecientes a un sujeto."
+      },
+      {
+        "name": "Sujeto: ",
+        "meaning": "es una entidad sobre la cual se hacen afirmaciones (claims). Los sujetos pueden ser personas u organizaciones, pero también animales, cosas e incluso conceptos. Un individuo, una empresa, un auto o un animal son ejemplos de sujetos. El titular (holder) de una credencial verificable puede o no ser el sujeto de dicha credencial. Por ejemplo: un padre (el titular o holder) puede tener las credenciales verificables de su hijo (el sujeto), o el dueño de una mascota (el titular o holder) puede tener las credenciales verificables de su mascota (el sujeto)."
+      },
+      {
+        "name": "Usuario: ",
+        "meaning": "Persona humana que utiliza QuarkID Wallet."
+      },
+      {
+        "name": "Titular: ",
+        "meaning": "(holder): un rol que un sujeto desempeña cuando posee una o más credenciales verificables y genera presentaciones verificables a partir de ellas."
+      },
+      {
+        "name": "Emisor: ",
+        "meaning": "(issuer): un rol que desempeña una entidad que realiza afirmaciones (claims) sobre uno o más sujetos, que crea credenciales verificables a partir de estas afirmaciones y que transmite dichas credenciales a sus titulares. Los emisores, por ejemplo, pueden ser: empresas, organizaciones sin fines de lucro, asociaciones comerciales, gobiernos e incluso individuos."
+      },
+      {
+        "name": "Afirmación: ",
+        "meaning": "(Claim): representa una calificación, logro, cualidad o información sobre los antecedentes de un sujeto, como ser, por ejemplo, un nombre, una identificación gubernamental, una dirección particular o un título universitario. Un sujeto puede ser un individuo, una organización o una cosa."
+      },
+      {
+        "name": "Credenciales: ",
+        "meaning": "es un conjunto de una o más afirmaciones (claims) realizadas por el mismo emisor respecto del mismo sujeto. También pueden incluir un identificador y metadatos para describir las propiedades de la credencial en sí misma, como el emisor, la fecha y hora de vencimiento, una imagen representativa, una clave pública para usar con fines de verificación, el mecanismo de revocación, etc. "
+      },
+      {
+        "name": "Credenciales Verificables: ",
+        "meaning": "es una credencial, tal como se definió en el párrafo anterior, pero que incluye material criptográfico que permite detectar la manipulación de sus datos y probar fehacientemente quién la emitió."
+      },
+      {
+        "name": "Presentaciones Verificables: ",
+        "meaning": "contienen datos de una o más credenciales verificables empaquetados de tal manera que la autoría y la integridad de los datos es verificable. También pueden estar conformados por datos que son derivados de credenciales verificables cuya validez y autoría pueden ser verificadas criptográficamente, generalmente utilizando algoritmos de Zero Knowledge Proofs. Los datos de una presentación a menudo tratan sobre el mismo sujeto, pero pueden haber sido emitidos por varios emisores. Las presentaciones verificables deben incluir una prueba criptográfica, típicamente una firma digital, que permita verificar que quien está realizando la presentación es el titular de la credencial (holder)."
+      },
+      {
+        "name": "Interoperabilidad: ",
+        "meaning": "permite que diferentes plataformas puedan comunicarse y colaborar de manera eficiente, sin estar sujetas a una autoridad central como es el caso de la identidad auto-soberana. "
+      },
+      {
+        "name": "Identidad Autosoberana: ",
+        "meaning": "identidad digital que el Usuario controla y gestiona directamente, en el marco de los fundamentos establecidos por el framework QuarkID."
+      },
+      {
+        "name": "Identificador Descentralizado (DID): ",
+        "meaning": "un identificador persistente y globalmente único que no requiere una autoridad de registro centralizada porque se genera y/o registra utilizando una arquitectura descentralizada."
+      },
+      {
+        "name": "Información aclaratoria: ",
+        "meaning": "el modelo de datos de credenciales verificables, definido por el W3C, es un formato de datos universal que permite que cualquier entidad realice “afirmaciones verificables” (Verifiable Claims) sobre otra entidad, para describir una cualidad o cualidades, propiedad o propiedades, que establecen la existencia y unicidad de la entidad sobre la cual se realizan dichas afirmaciones. El objetivo fundamental del estándar de Credenciales Verificables es habilitar el equivalente digital de las credenciales físicas que almacenamos en nuestras billeteras físicas y que utilizamos en el día a día para proporcionar prueba de nuestra identidad y/o de nuestros atributos."
+      }
+    ]
+  },
+  "updateVersion": {
+    "title": "Actualice a la versión más reciente de la aplicación para continuar",
+    "updateButton": "Actualizar",
+    "supportButton": "Cancelar"
+  },
+  "cameraAccessRequest": {
+    "title": "Quark ID no tiene acceso a la cámara",
+    "description": "Desde configuración, podes darle los permisos a la cámara para tener acceso",
+    "continue": "Cancelar",
+    "settings": "Configuración"
+  },
+  "tabStack": {
+    "settings": "Ajustes",
+    "settingsMessage": "Aquí podrás ver los ajustes de la aplicación",
+    "notifications": "Notificaciones",
+    "notificationsMessage": "Aquí podrás ver las notificaciones que recibas",
+    "entities": "Entidades",
+    "entitiesMessage": "Aquí podrás ver las entidades disponibles para conectarte",
+    "credentials": "Credenciales",
+    "credentialsMessage": "Esta es tu billetera, aquí podrás ver tus credenciales y gestionarlas",
+    "scanMessage": "Escanea un QR para añadir una nueva credencial"
+  },
+  "credentialsScreen": {
+    "empty": "No has añadido ninguna credencial, añade una para poder comenzar",
+    "title": "Credenciales",
+    "add": "Añadir nueva credencial",
+    "deleted": "Credencial eliminada",
+    "deletedDescription": "Esta credencial ha sido eliminada"
+  },
+  "entitiesScreen": {
+    "empty": "No tienes entidades",
+    "title": "Entidades disponibles"
+  },
+  "notificationsScreen": {
+    "empty": "No tienes notificaciones pendientes",
+    "title": "Notificaciones"
+  },
+  "settingsScreen": {
+    "title": "Configuración",
+    "export": {
+      "title": "Exportar claves",
+      "description": "Resguarda tus claves en tu dispositivo",
+      "btn1": "E-mail",
+      "btn2": "Enviar"
+    },
+    "exportCredentials": {
+      "title": "Exportar credenciales",
+      "description": "Resguarda tus credenciales en tu dispositivo",
+      "btn1": "E-mail",
+      "btn2": "Enviar"
+    },
+    "importCredentials": {
+      "title": "Importar credenciales",
+      "description": "Importa tus credenciales desde tu dispositivo",
+      "btn1": "E-mail",
+      "btn2": "Importar"
+    },
+    "share": {
+      "title": "Compartir tu ID",
+      "semiTitle": "Compartir DID",
+      "description": "Controla tu identidad, comparte con seguridad",
+      "btn": "Copiar",
+      "sharebtn": "Compartir"
+    },
+    "reset": {
+      "title": "Restaurar aplicación",
+      "fullTitle": "Restaurar aplicación",
+      "semiTitle": "Restaurar configuración inicial",
+      "description": "Esto eliminará todos tus datos",
+      "btn": "Restaurar",
+      "popupTitle": "¿Estás seguro?",
+      "message1": "Restaurar incluye la eliminación de datos, DID, claves, credenciales verificables, configuraciones, preferencias y cualquier otra modificación que hayas realizado",
+      "message2": "¿Estás seguro de que quieres restaurar la aplicación? Ten en cuenta que esta acción no se puede deshacer. Te recomendamos hacer un respaldo de tus claves antes de proceder",
+      "ok": "Reiniciar"
+    },
+    "config": {
+      "title": "Configuración",
+      "description": "Configuración de la aplicación"
+    },
+    "terms": {
+      "title": "Términos y condiciones",
+      "items": [
+        {
+          "title": "Lorem ipsum",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed malesuada turpis id venenatis pretium. Sed aliquam semper dui, at gravida nisl vestibulum vel. Fusce efficitur feugiat molestie. Nunc vel ligula ut lacus consequat pellentesque. Mauris cursus volutpat velit, feugiat lobortis nunc."
+        },
+        {
+          "title": "Sed aliquam semper",
+          "description": [
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed malesuada turpis id venenatis pretium. Sed aliquam semper dui, at gravida nisl vestibulum vel. Fusce efficitur feugiat molestie. Nunc vel ligula ut lacus consequat pellentesque. Mauris cursus volutpat velit, feugiat lobortis nunc.",
+            "Sed malesuada turpis id venenatis pretium. Sed aliquam semper dui, at gravida nisl vestibulum vel. Fusce efficitur feugiat molestie. Nunc vel ligula ut lacus consequat pellentesque. Mauris cursus volutpat velit, feugiat lobortis nunc posuer."
+          ]
+        }
+      ]
+    },
+    "privacy": {
+      "title": "Privacy Policy",
+      "items": [
+        {
+          "title": "Lorem ipsum",
+          "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed malesuada turpis id venenatis pretium. Sed aliquam semper dui, at gravida nisl vestibulum vel. Fusce efficitur feugiat molestie. Nunc vel ligula ut lacus consequat pellentesque. Mauris cursus volutpat velit, feugiat lobortis nunc."
+        },
+        {
+          "title": "Sed aliquam semper",
+          "description": [
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed malesuada turpis id venenatis pretium. Sed aliquam semper dui, at gravida nisl vestibulum vel. Fusce efficitur feugiat molestie. Nunc vel ligula ut lacus consequat pellentesque. Mauris cursus volutpat velit, feugiat lobortis nunc.",
+            "Sed malesuada turpis id venenatis pretium. Sed aliquam semper dui, at gravida nisl vestibulum vel. Fusce efficitur feugiat molestie. Nunc vel ligula ut lacus consequat pellentesque. Mauris cursus volutpat velit, feugiat lobortis nunc posuer."
+          ]
+        }
+      ]
+    },
+    "faq": {
+      "title": "Preguntas frecuentes",
+      "moreInfo": "Para más información podes ir a",
+      "questions": [
+        {
+          "title": "¿Que es la identidad descentralizada?",
+          "description": "La identidad descentralizada es un concepto en el que los individuos tienen el poder de poseer, controlar y compartir sus propios datos de identidad de manera segura y autónoma a través de tecnologías como la criptografía y las cadenas de bloques, evitando la dependencia de intermediarios centralizados. Esto permite una mayor privacidad y control sobre la información personal en entornos digitales."
+        },
+        {
+          "title": "¿Es seguro compartir mi did?",
+          "description": "Sí, compartir tu DID (Identificador Descentralizado) en un entorno que respalda la identidad descentralizada generalmente se considera seguro. Los DIDs están diseñados para permitir que los usuarios tengan control sobre su propia identidad y datos personales, lo que significa que tú decides cuándo y con quién compartes tu DID y los datos asociados."
+        },
+        {
+          "title": "¿Qué implica la rotación de claves?",
+          "description": "La rotación de claves asociada con un documento DID (Identificador Descentralizado) implica cambiar las claves criptográficas vinculadas al DID y utilizadas para establecer la identidad en línea de un usuario y asegurar interacciones. Cambiar las claves periódicamente reduce el riesgo de que las claves sean comprometidas y se utilicen para acceder a datos personales o llevar a cabo acciones no autorizadas."
+        },
+        {
+          "title": "¿Para que necesito exportar mis claves?",
+          "description": "La función de exportar claves realiza lo siguiente: recopila tanto las claves públicas como privadas, la mnemotecnia (conjunto de palabras que representan tu clave secreta), y el DID (Identificador Descentralizado) asociado. Luego, crea un archivo que contiene toda esta información importante. Tú tienes el control para decidir dónde deseas guardar este archivo en tu dispositivo. Esta característica te brinda una forma segura de respaldar y transportar tus datos esenciales de identidad y criptográficos para su uso en otros dispositivos o en situaciones de recuperación."
+        },
+        {
+          "title": "¿Que implica restaurar configuración inicial?",
+          "description": "Restaurar a los valores predeterminados implica que todos los cambios y personalizaciones que has realizado en la aplicación serán eliminados, y la aplicación volverá a su estado original tal como estaba cuando la instalaste por primera vez. Esto incluye la eliminación de datos, did, claves, credenciales verificables, configuraciones, preferencias y cualquier otra modificación que hayas realizado. Por favor, ten en cuenta que esta acción no se puede deshacer, por lo que te recomendamos hacer una copia de seguridad de tu información importante antes de proceder."
+        },
+        {
+          "title": "¿Como funciona una wallet de identidad?",
+          "description": "Una wallet de identidad es una herramienta que permite a los usuarios almacenar, proteger y controlar sus datos de identidad digital de forma segura. Los usuarios pueden compartir selectivamente esta información en línea, demostrar su identidad y mantener su privacidad, todo mientras tienen la portabilidad de llevar su identidad digital a diferentes servicios y aplicaciones. Esto reduce la dependencia de intermediarios centralizados en la gestión de la identidad."
+        },
+        {
+          "title": "¿Que ventajas ofrece la identidad descentralizada?",
+          "description": "La identidad descentralizada ofrece ventajas como mayor control y privacidad de los datos de identidad, seguridad, portabilidad, interoperabilidad y reducción del fraude, empoderando a los usuarios al eliminar la dependencia de intermediarios centralizados."
+        }
+      ]
+    }
+  },
+  "errorScreen": {
+    "title": "Error 2354",
+    "description": "Text explaining the error",
+    "btn1": "Support",
+    "btn2": "Go to wallet"
+  },
+  "scanScreen": {
+    "title": "Escanear QR",
+    "error": "Error al escanear el código QR",
+    "urlTitle": "Está siendo redirigido a: ",
+    "urlDescription": "Desea continuar?"
+  },
+  "configurationScreen": {
+    "title": "Configuración"
+  },
+  "credentialDetailsScreen": {
+    "title": "Detalles de credencial",
+    "remove": "Eliminar credencial",
+    "removeMessage": "¿Estás seguro de que quieres eliminar esta credencial?",
+    "share": "Compartir documento",
+    "viewRelatedDocuments": "Ver documentos relacionados",
+    "downloadErrorTitle": "Error en la descarga",
+    "downloadErrorSubtitle": "El documento no está disponible en este momento"
+  },
+  "entityDetailsScreen": {
+    "title": "Detalles de entidad",
+    "button": "Conectar",
+    "name": "Nombre",
+    "description": "Descripción",
+    "website": "Redirección",
+    "contact": "Contacto"
+  },
+  "addCredentialScreen": {
+    "title": "Añade una credencial",
+    "entityTitle": "Selecciona una entidad",
+    "scanTitle": "O escanea un QR",
+    "button": "Escanear"
+  },
+  "addEntityScreen": {
+    "title": "Nueva entidad",
+    "name": "Nombre",
+    "description": "Descripción",
+    "url": "URL",
+    "add": "Añadir",
+    "invalidUrl": "URL no válida"
+  },
+  "acceptCredentialsScreen": {
+    "header": "Credencial recibida",
+    "title": "Acepta tus credenciales",
+    "description": "está compartiendo esta información",
+    "expiration": "Expiración",
+    "accept": "Aceptar",
+    "reject": "Rechazar credenciales",
+    "addTitle": "está compartiendo esta información",
+    "rejectDescription": "¿Estás seguro de que quieres rechazar estas credenciales?"
+  },
+  "verificationResultScreen": {
+    "title": "Verificación",
+    "success": "Verificación exitosa",
+    "successMessage": "Tu credencial fue verificada correctamente",
+    "error": "Error en la verificación",
+    "errorMessage": "No pudimos validar tu credencial"
+  },
+  "presentCredentialsScreen": {
+    "title": "Presenta tus credenciales",
+    "empty": "No tienes credenciales válidas",
+    "message": "Añade una credencial valida",
+    "expiration": "Expiración",
+    "accept": "Presentar",
+    "emit": "quiere emitir estas credenciales",
+    "present": "Necesitas presentar las siguientes credenciales:",
+    "reject": "¿Cancelar verificación?",
+    "create": "Crear",
+    "createTitle": "Crear Credenciales",
+    "presentTitle": "Presentar Credenciales",
+    "rejectDescription": "¿Estás seguro de que quieres detener el envío de la credencial para su verificación?"
+  },
+  "notifications": {
+    "didCreated": {
+      "title": "Tu DID está listo",
+      "body": "Tu DID está listo para ser usado"
+    },
+    "issueCredential": {
+      "title": "Nueva credencial",
+      "body": "Obtuviste una nueva credencial"
+    },
+    "offerCredential": {
+      "title": "Oferta de credenciales",
+      "body": "Quieren emitirte nuevas credenciales"
+    },
+    "requestPresentation": {
+      "title": "Solicitud de presentación",
+      "body": "Se requiere la presentación de una credencial"
+    },
+    "pdfArrived": {
+      "title": "Recibiste un mensaje pdf",
+      "body": "Acepta o rechaza el mensaje"
+    },
+    "textArrived": {
+      "title": "Recibiste un mensaje de texto",
+      "body": "Acepta o rechaza el mensaje"
+    },
+
+    "presentationAck": {
+      "titleOk": "Verificación exitosa ✅",
+      "titleFail": "Fallo en la verificación ❌",
+      "bodyOk": "La verificación de tu credencial fue exitosa",
+      "bodyFail": "Fallo en la verificación de tu credencial"
+    },
+
+    "proposeCredential": "Propuesta de credencial",
+    "requestCredential": "Pedido de credencial",
+    "proposePresentation": "Propuesta de presentación",
+    "problemReport": "Error"
+  },
+  "verificationError": {
+    "default": "Error inesperado",
+    "verifiable-credential-expired": "Credencial expirada",
+    "vc-invalid-signature": "Firma inválida",
+    "verification-method-not-found": "Método de verificación no encontrado",
+    "verification-relationship-invalid": "Relación de verificación inválida",
+    "verifiable-credential-revoked": "Credencial revocada",
+    "verifiable-credential-suspended": "Credencial suspendida",
+    "credential-status-service-error": "Error al verificar el estado de la credencial",
+    "reject-authentication": "Error de autenticación"
+  }
+}

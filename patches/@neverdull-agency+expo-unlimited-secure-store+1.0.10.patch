@@ -1,0 +1,23 @@
+diff --git a/node_modules/@neverdull-agency/expo-unlimited-secure-store/src/aes.js b/node_modules/@neverdull-agency/expo-unlimited-secure-store/src/aes.js
+index a527dc9..5ca6047 100644
+--- a/node_modules/@neverdull-agency/expo-unlimited-secure-store/src/aes.js
++++ b/node_modules/@neverdull-agency/expo-unlimited-secure-store/src/aes.js
+@@ -16,7 +16,7 @@ const generateKey = (length) => {
+     let key = '';
+     const hex = '0123456789abcdef';
+ 
+-    for (i = 0; i < length; i++) {
++    for (let i = 0; i < length; i++) {
+         key += hex.charAt(Math.floor(Math.random() * 16));
+     }
+ 
+diff --git a/node_modules/@neverdull-agency/expo-unlimited-secure-store/src/storage.js b/node_modules/@neverdull-agency/expo-unlimited-secure-store/src/storage.js
+index 7fcfba1..08ca22f 100644
+--- a/node_modules/@neverdull-agency/expo-unlimited-secure-store/src/storage.js
++++ b/node_modules/@neverdull-agency/expo-unlimited-secure-store/src/storage.js
+@@ -1,4 +1,4 @@
+-import * as FileSystem from 'expo-file-system';
++import * as FileSystem from 'expo-file-system/legacy';
+ import * as SecureStore from 'expo-secure-store';
+ 
+ import uuid from './uuid';

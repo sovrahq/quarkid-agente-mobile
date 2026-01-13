@@ -1,0 +1,12 @@
+*** Begin Patch
+*** Update File: node_modules/@extrimian/kms-suite-jsonld/dist/services/jsonld-suite.js
+@@     function JsonLDSuite() {
+-        this.contextDictionary = [
+-            { key: "https://www.w3.org/2018/credentials/v1", value: "https://www.w3.org/2018/credentials/v1" },
+-            { key: "https://w3id.org/security/bbs/v1", value: "https://w3id.org/security/bbs/v1" },
+-        ];
++        this.contextDictionary = [
++            { key: "https://www.w3.org/2018/credentials/v1", value: "https://www.w3.org/2018/credentials/v1" },
++            { key: "https://w3id.org/security/bbs/v1", value: "https://w3id.org/security/bbs/v1" },
++        ];
+*** End Patch
